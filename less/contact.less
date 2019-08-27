@@ -1,0 +1,100 @@
+.contactInfo {
+  margin-top: 5%;
+  text-align: center;
+  font-family: @roboto;
+}
+.contactInfo h2 {
+  text-align: center;
+  font-size: 40px;
+  color: @submainblue;
+}
+#yourName {
+  height: 40px;
+  width: 75%;
+  border-radius: 5px;
+  outline: none;
+  border: 3px dashed @mainblue;
+  text-align: center;
+  background-color: @kindalighterblue;
+  font-size: 20px;
+
+  opacity: 0.5;
+  resize: none;
+  font-family: @roboto;
+}
+#yourEmail {
+  height: 40px;
+  width: 75%;
+  border-radius: 5px;
+  outline: none;
+  border: 3px dashed @mainblue;
+  text-align: center;
+  background-color: @kindalighterblue;
+  font-size: 20px;
+
+  opacity: 0.5;
+  margin-top: 15px;
+  resize: none;
+  font-family: @roboto;
+}
+#yourMessage {
+  height: 200px;
+  width: 75%;
+  border-radius: 5px;
+  outline: none;
+  border: 3px dashed @mainblue;
+  text-align: center;
+  background-color: @kindalighterblue;
+  font-size: 20px;
+
+  opacity: 0.5;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  resize: none;
+  font-family: @roboto;
+}
+.submitContact {
+  border: 3px solid @mainblue;
+  padding: 10px;
+  width: 250px;
+  height: 50px;
+  margin-bottom: 2%;
+  border-radius: 5px;
+  font-size: 12px;
+  background-color: @lightblue;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-family: @roboto;
+  &:focus {
+    background-color: white;
+    color: @mainblue;
+    outline: 0;
+  }
+}
+
+// ------------------------------------------------------------------------------------------------
+// btn from landing page but named differently bc i needed to add margin to center it. feel free to change it to make it look nicer !
+.btn2 {
+  height: 6rem;
+  border: 1px solid @mainblue;
+  font-size: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  width: 30rem;
+  color: white;
+  background-color: @mainblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 38%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+
+  @media (max-width: 500px) {
+    width: 40rem;
+    background: @mainblue;
+    border: none;
+    margin: 0 auto;
+  }
+}
