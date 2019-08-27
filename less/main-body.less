@@ -260,3 +260,82 @@ img {
   background-color: #51d3e1;
   padding: 2%;
 }
+
+//<-------------------about me cards------------------>
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.item {
+  width: 20%;
+  overflow: hidden;
+  border-radius: 2px;
+  margin: 2rem auto;
+  box-shadow: 0 0px 3px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 0.25s ease-out;
+}
+
+.item:hover {
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.25);
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.item-content {
+  background-color: @mainblue;
+  opacity: 0.8;
+  padding: 1.5rem;
+  opacity: 75%;
+}
+
+.card-font {
+  font-size: 1.25rem;
+}
+
+.item-content div {
+  margin-top: 2rem;
+  text-align: right;
+  display: flex;
+}
+
+.card-action {
+  color: steelblue;
+  text-decoration: none;
+  height: 6rem;
+  border: 1px solid @mainblue;
+  font-size: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  color: white;
+  background-color: @mainblue;
+  opacity: 0.8;
+  transition: 1s black;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.card-action:hover {
+  border: 1px solid steelblue;
+}
+
+.card-action:focus {
+  background-color: rgba(70, 130, 180, 0.25);
+}
