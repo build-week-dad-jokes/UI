@@ -471,6 +471,7 @@ img {
   background-color: white;
   color: #25c8da;
   outline: 0;
+  border: 3px solid #25c8da;
 }
 .btn2 {
   height: 6rem;
