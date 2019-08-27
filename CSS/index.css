@@ -254,6 +254,32 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 2% 0;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
 }
 .home .about-section {
   margin: 30px 0;
@@ -454,4 +480,122 @@ img {
   color: white;
   background-color: #51d3e1;
   padding: 2%;
+}
+.contactInfo {
+  margin-top: 5%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.contactInfo h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #51d3e1;
+}
+#yourName {
+  height: 40px;
+  width: 75%;
+  border-radius: 5px;
+  outline: none;
+  border: 3px dashed #25c8da;
+  text-align: center;
+  background-color: #a8e9f0;
+  font-size: 20px;
+  opacity: 0.5;
+  resize: none;
+  font-family: "Roboto", sans-serif;
+}
+#yourEmail {
+  height: 40px;
+  width: 75%;
+  border-radius: 5px;
+  outline: none;
+  border: 3px dashed #25c8da;
+  text-align: center;
+  background-color: #a8e9f0;
+  font-size: 20px;
+  opacity: 0.5;
+  margin-top: 15px;
+  resize: none;
+  font-family: "Roboto", sans-serif;
+}
+#yourMessage {
+  height: 200px;
+  width: 75%;
+  border-radius: 5px;
+  outline: none;
+  border: 3px dashed #25c8da;
+  text-align: center;
+  background-color: #a8e9f0;
+  font-size: 20px;
+  opacity: 0.5;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  resize: none;
+  font-family: "Roboto", sans-serif;
+}
+.submitContact {
+  border: 3px solid #25c8da;
+  padding: 10px;
+  width: 250px;
+  height: 50px;
+  margin-bottom: 2%;
+  border-radius: 5px;
+  font-size: 12px;
+  background-color: #7cdee9;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+.submitContact:focus {
+  background-color: white;
+  color: #25c8da;
+  outline: 0;
+  border: 3px solid #25c8da;
+}
+.btn2 {
+  height: 6rem;
+  border: 1px solid #25c8da;
+  font-size: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  width: 30rem;
+  color: white;
+  background-color: #25c8da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 38%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+@media (max-width: 500px) {
+  .btn2 {
+    width: 40rem;
+    background: #25c8da;
+    border: none;
+    margin: 0 auto;
+  }
+}
+address {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #7cdee9;
+}
+.fab {
+  font-size: 5rem;
+  margin: 1% 5%;
+  cursor: pointer;
+}
+.fa-github {
+  color: #4078c0;
+}
+.fa-twitter {
+  color: #1da1f2;
+}
+.fa-facebook {
+  color: #3b5998;
+}
+.fa-linkedin-in {
+  color: #0077b5;
 }
