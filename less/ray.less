@@ -1,0 +1,40 @@
+.test-container {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    color: white;
+    box-shadow: 0 4px 8px 0 lightgray, 0 6px 20px lightgray;
+    @media (max-width: 500px){
+        flex-direction: column-reverse;
+    }
+    .text-block {
+        background: @mainblue;
+        background: radial-gradient(circle, rgba(168,233,240,1) 0%, rgba(37,200,218,1) 100%);
+        padding: 20px;
+        h3 {
+            font-size: 2rem;
+            margin: 10px 0;
+        }
+    }
+    .test-img img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.mid-content{
+    display: flex;
+    margin: 20px auto;
+    width: 80%;
+    .photo{
+        background-color: gray;
+        height: 200px;
+        width: 600px;
+    }
+    .mid-content-text  {
+        padding: 20px;
+        h3 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+    }
+}
