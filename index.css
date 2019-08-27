@@ -143,25 +143,8 @@ h4,
 h5 {
   font-family: "Roboto", sans-serif;
 }
-.test-container {
-  display: flex;
-  width: 80%;
-  margin: 20px auto;
-  color: white;
-  box-shadow: 0 4px 8px 0 lightgray, 0 6px 20px lightgray;
-}
-.test-container .text-block {
-  background: #a8e9f0;
-  background: radial-gradient(circle, #a8e9f0 0%, #25c8da 100%);
-  padding: 20px;
-}
-.test-container .text-block h3 {
-  font-size: 2rem;
-  margin: 10px 0;
-}
-.test-container .test-img img {
-  width: 100%;
-  height: 100%;
+.test-block .header-text p {
+  background-color: pink;
 }
 h1 {
   font-size: 4rem;
