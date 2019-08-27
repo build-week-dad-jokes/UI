@@ -1,0 +1,28 @@
+.navContainer {
+  display: flex;
+  border-bottom: 2px solid @bordergrey;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background: @mainblue;
+  color: white;
+  @media (max-width: 500px) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.navContainer .navTitle {
+  margin-right: 10rem;
+  @media (max-width: 500px) {
+    text-align: center;
+    margin-left: 8rem;
+  }
+}
+.navContainer .navigation {
+  margin-top: 1.5rem;
+  font-size: 1.6rem;
+}
+.navContainer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 3rem;
+}
