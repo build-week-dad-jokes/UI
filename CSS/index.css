@@ -156,7 +156,7 @@ h5 {
   }
 }
 .test-container .text-block {
-  background: #a8e9f0;
+  background: #26c7da;
   background: radial-gradient(circle, #a8e9f0 0%, #25c8da 100%);
   padding: 20px;
 }
@@ -167,6 +167,23 @@ h5 {
 .test-container .test-img img {
   width: 100%;
   height: 100%;
+}
+.mid-content {
+  display: flex;
+  margin: 20px auto;
+  width: 80%;
+}
+.mid-content .photo {
+  background-color: gray;
+  height: 200px;
+  width: 600px;
+}
+.mid-content .mid-content-text {
+  padding: 20px;
+}
+.mid-content .mid-content-text h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
 h1 {
   font-size: 4rem;
