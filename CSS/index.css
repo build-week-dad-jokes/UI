@@ -156,7 +156,7 @@ h5 {
   }
 }
 .test-container .text-block {
-  background: #26c7da;
+  background: #25c8da;
   background: radial-gradient(circle, #a8e9f0 0%, #25c8da 100%);
   padding: 20px;
 }
@@ -184,6 +184,52 @@ h5 {
 .mid-content .mid-content-text h3 {
   font-size: 2rem;
   margin-bottom: 20px;
+}
+.mainHeader h2 {
+  text-align: center;
+  margin: 2%;
+}
+@media (max-width: 500px) {
+  .mainHeader h2 {
+    margin-left: 2.5rem;
+  }
+}
+@media (max-width: 500px) {
+  .mainHeader p {
+    padding: 0 2rem 2rem 2rem;
+  }
+}
+.navContainer {
+  display: flex;
+  border-bottom: 2px solid #cbcbcb;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background: #25c8da;
+  color: white;
+}
+@media (max-width: 500px) {
+  .navContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.navContainer .navTitle {
+  margin-right: 10rem;
+}
+@media (max-width: 500px) {
+  .navContainer .navTitle {
+    text-align: center;
+    margin-left: 8rem;
+  }
+}
+.navContainer .navigation {
+  margin-top: 1.5rem;
+  font-size: 1.6rem;
+}
+.navContainer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 3rem;
 }
 h1 {
   font-size: 4rem;
@@ -217,7 +263,7 @@ img {
   border-bottom: 2px solid #cbcbcb;
   justify-content: space-evenly;
   padding: 2rem;
-  background: #26c7da;
+  background: #25c8da;
   color: white;
 }
 @media (max-width: 500px) {
@@ -254,32 +300,6 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
-h1 {
-  font-size: 4rem;
-}
-h2 {
-  font-size: 3.2rem;
-  padding-bottom: 10px;
-  text-align: center;
-  margin: 2% 0;
-}
-h4 {
-  font-size: 2.5rem;
-  padding-bottom: 10px;
-}
-p {
-  line-height: 1.5;
-  font-size: 1.6rem;
-  padding-bottom: 10px;
-}
-img {
-  max-width: 100%;
-  height: auto;
-}
-.container {
-  max-width: 1000px;
-  width: 100%;
-  margin: 0 auto;
 }
 .home .about-section {
   margin: 30px 0;
@@ -421,13 +441,13 @@ img {
 }
 .btn {
   height: 6rem;
-  border: 1px solid #26c7da;
+  border: 1px solid #25c8da;
   font-size: 2rem;
   border-radius: 1rem;
   cursor: pointer;
   width: 30rem;
   color: white;
-  background-color: #26c7da;
+  background-color: #25c8da;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -439,7 +459,7 @@ img {
 @media (max-width: 500px) {
   .btn {
     width: 40rem;
-    background: #26c7da;
+    background: #25c8da;
     border: none;
     margin: 0 auto;
   }
@@ -463,6 +483,23 @@ img {
   .testimonial-section img {
     display: none;
   }
+}
+.get-ready .get-started {
+  font-size: 3rem;
+  text-align: center;
+  padding: 2%;
+}
+@media (max-width: 500px) {
+  .get-ready .get-started {
+    font-size: 1.8rem;
+  }
+}
+.footer {
+  text-align: center;
+  font-size: 1.6rem;
+  color: white;
+  background-color: #51d3e1;
+  padding: 2%;
 }
 .get-ready .get-started {
   font-size: 3rem;
