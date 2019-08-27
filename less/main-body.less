@@ -222,6 +222,30 @@ img {
     margin: 0 auto;
   }
 }
+
+.btnTwo {
+  height: 6rem;
+  border: 1px solid @mainblue;
+  font-size: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  width: 100%;
+  color: white;
+  background-color: @mainblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s black;
+}
+@media (max-width: 500px) {
+  .btn {
+    width: 50%;
+    background: @mainblue;
+    border: none;
+    margin: 0 auto;
+  }
+}
+
 .testimonial-section {
   display: flex;
   flex-direction: row;
@@ -232,6 +256,10 @@ img {
     img {
       border-radius: 50%;
       width: 100%;
+    }
+
+    a{
+      text-decoration: none;
     }
   }
   @media (max-width: 500px) {
