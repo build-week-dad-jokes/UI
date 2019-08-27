@@ -464,6 +464,28 @@ img {
     margin: 0 auto;
   }
 }
+.btnTwo {
+  height: 6rem;
+  border: 1px solid #25c8da;
+  font-size: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  width: 100%;
+  color: white;
+  background-color: #25c8da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s black;
+}
+@media (max-width: 500px) {
+  .btn {
+    width: 50%;
+    background: #25c8da;
+    border: none;
+    margin: 0 auto;
+  }
+}
 .testimonial-section {
   display: flex;
   flex-direction: row;
@@ -475,6 +497,9 @@ img {
 .testimonial-section .testimonials img {
   border-radius: 50%;
   width: 100%;
+}
+.testimonial-section .testimonials a {
+  text-decoration: none;
 }
 @media (max-width: 500px) {
   .testimonial-section {
