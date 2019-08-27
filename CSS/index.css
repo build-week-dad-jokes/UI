@@ -150,6 +150,11 @@ h5 {
   color: white;
   box-shadow: 0 4px 8px 0 lightgray, 0 6px 20px lightgray;
 }
+@media (max-width: 500px) {
+  .test-container {
+    flex-direction: column-reverse;
+  }
+}
 .test-container .text-block {
   background: #a8e9f0;
   background: radial-gradient(circle, #a8e9f0 0%, #25c8da 100%);
