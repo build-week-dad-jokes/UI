@@ -1,0 +1,18 @@
+.content-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.top-content {
+  width: 80%;
+}
+.top-content h3 {
+  text-decoration: bold;
+}
+img {
+  border-radius: 50%;
+  border: 1px solid black;
+  height: 275px;
+  width: 275px;
+  box-shadow: 5px 5px 10px grey;
+}
