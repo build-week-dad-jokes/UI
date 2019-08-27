@@ -499,7 +499,7 @@ img {
     margin: 0 auto;
   }
 }
-.hobbies {
+.hobbies-top {
   padding: 2%;
   width: 100%;
   display: flex;
@@ -507,25 +507,40 @@ img {
   justify-content: center;
   align-items: center;
 }
-.hobbies .box-container {
+.hobbies-top .box-container {
   padding: 2%;
   width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.hobbies img {
+@media (max-width: 500px) {
+  .hobbies-top .box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+.hobbies-top img {
   width: 49%;
   border-radius: 15px;
 }
-.hobbies h3 {
+@media (max-width: 500px) {
+  .hobbies-top img {
+    width: 100%;
+    padding: 2%;
+  }
+}
+.hobbies-top h3 {
   font-size: 2.5rem;
 }
-.hobbies p {
+.hobbies-top p {
   font-size: 1.75rem;
   padding: 2%;
 }
-.hobbies .listedItems {
+.hobbies-top .listedItems {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -533,10 +548,80 @@ img {
   padding: 4%;
   margin: 1%;
 }
-.hobbies .listedItems ul li {
+.hobbies-top .listedItems ul li {
   padding-left: 2.5%;
   font-size: 1.35rem;
   line-height: 1.75rem;
+}
+@media (max-width: 500px) {
+  .hobbies-top .listedItems {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.hobbies-bottom {
+  padding: 2%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hobbies-bottom .box-container {
+  padding: 2%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .hobbies-bottom .box-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+.hobbies-bottom img {
+  width: 49%;
+  border-radius: 15px;
+}
+@media (max-width: 500px) {
+  .hobbies-bottom img {
+    width: 100%;
+    padding: 2%;
+  }
+}
+.hobbies-bottom h3 {
+  font-size: 2.5rem;
+}
+.hobbies-bottom p {
+  font-size: 1.75rem;
+  padding: 2%;
+}
+.hobbies-bottom .listedItems {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 49%;
+  padding: 4%;
+  margin: 1%;
+}
+.hobbies-bottom .listedItems ul li {
+  padding-left: 2.5%;
+  font-size: 1.35rem;
+  line-height: 1.75rem;
+}
+@media (max-width: 500px) {
+  .hobbies-bottom .listedItems {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 hr {
   border: 0;
