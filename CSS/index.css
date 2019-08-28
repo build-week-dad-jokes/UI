@@ -143,48 +143,6 @@ h4,
 h5 {
   font-family: "Roboto", sans-serif;
 }
-.test-container {
-  display: flex;
-  width: 80%;
-  margin: 20px auto;
-  color: white;
-  box-shadow: 0 4px 8px 0 lightgray, 0 6px 20px lightgray;
-}
-@media (max-width: 500px) {
-  .test-container {
-    flex-direction: column-reverse;
-  }
-}
-.test-container .text-block {
-  background: #25c8da;
-  background: radial-gradient(circle, #a8e9f0 0%, #25c8da 100%);
-  padding: 20px;
-}
-.test-container .text-block h3 {
-  font-size: 2rem;
-  margin: 10px 0;
-}
-.test-container .test-img img {
-  width: 100%;
-  height: 100%;
-}
-.mid-content {
-  display: flex;
-  margin: 20px auto;
-  width: 80%;
-}
-.mid-content .photo {
-  background-color: gray;
-  height: 200px;
-  width: 600px;
-}
-.mid-content .mid-content-text {
-  padding: 20px;
-}
-.mid-content .mid-content-text h3 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
 .mainHeader h2 {
   text-align: center;
   margin: 2%;
@@ -464,6 +422,11 @@ img {
     margin: 0 auto;
   }
 }
+.btn:hover {
+  border: 1px solid #25c8da;
+  background: #d3f4f8;
+  color: #25c8da;
+}
 .btnTwo {
   height: 6rem;
   border: 1px solid #25c8da;
@@ -476,15 +439,13 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 1s black;
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
-@media (max-width: 500px) {
-  .btn {
-    width: 50%;
-    background: #25c8da;
-    border: none;
-    margin: 0 auto;
-  }
+.btnTwo:hover {
+  border: 1px solid #25c8da;
+  background: #d3f4f8;
+  color: #25c8da;
 }
 .testimonial-section {
   display: flex;
@@ -705,48 +666,22 @@ img {
   font-family: "Roboto", sans-serif;
 }
 .submitContact {
-  border: 3px solid #25c8da;
+  border: 1px solid #25c8da;
   padding: 10px;
   width: 250px;
   height: 50px;
   margin-bottom: 2%;
   border-radius: 5px;
-  font-size: 12px;
+  font-size: 2rem;
   background-color: #7cdee9;
   color: white;
-  font-size: 1.2rem;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
 }
-.submitContact:focus {
-  background-color: white;
-  color: #25c8da;
-  outline: 0;
-  border: 3px solid #25c8da;
-}
-.btn2 {
-  height: 6rem;
+.submitContact:hover {
   border: 1px solid #25c8da;
-  font-size: 2rem;
-  border-radius: 1rem;
-  cursor: pointer;
-  width: 30rem;
-  color: white;
-  background-color: #25c8da;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 38%;
-  margin-bottom: 2%;
-  margin-top: 2%;
-}
-@media (max-width: 500px) {
-  .btn2 {
-    width: 40rem;
-    background: #25c8da;
-    border: none;
-    margin: 0 auto;
-  }
+  background: #d3f4f8;
+  color: #25c8da;
 }
 address {
   font-size: 1.6rem;
@@ -774,4 +709,92 @@ address {
 }
 .fa-linkedin-in {
   color: #0077b5;
+}
+.test-container {
+  display: flex;
+  width: 90%;
+  margin: 20px auto;
+}
+@media (max-width: 500px) {
+  .test-container {
+    flex-direction: column-reverse;
+  }
+}
+.test-container .text-block {
+  padding: 15px;
+}
+.test-container .text-block h3 {
+  font-size: 2rem;
+  margin: 10px 0 20px 0;
+}
+.screenshot-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 20px auto;
+}
+@media (max-width: 500px) {
+  .screenshot-container {
+    flex-direction: column;
+  }
+}
+.screenshot-container .screenshot1 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background: #a8e9f0;
+  background: linear-gradient(180deg, #a8e9f0 0%, #25c8da 100%);
+}
+@media (max-width: 500px) {
+  .screenshot-container .screenshot1 {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+}
+.screenshot-container .screenshot1 h2 {
+  padding: 20px;
+  color: white;
+}
+.screenshot-container .screenshot1 img {
+  margin: auto;
+}
+.screenshot-container .screenshot2 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background: #c9cecf;
+  background: linear-gradient(180deg, #c9cecf 0%, #798586 100%);
+}
+@media (max-width: 500px) {
+  .screenshot-container .screenshot2 {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+}
+.screenshot-container .screenshot2 h2 {
+  padding: 20px;
+  color: white;
+}
+.screenshot-container .screenshot2 img {
+  margin: auto;
+}
+.screenshot-container .screenshot3 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background: #f7b5bb;
+  background: linear-gradient(180deg, #f7b5bb 0%, #e82b3c 100%);
+}
+@media (max-width: 500px) {
+  .screenshot-container .screenshot3 {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+}
+.screenshot-container .screenshot3 h2 {
+  padding: 20px;
+  color: white;
+}
+.screenshot-container .screenshot3 img {
+  margin: auto;
 }
