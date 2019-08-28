@@ -1,40 +1,91 @@
-.test-container {
+@import "variables";
+
+@import "reset";
+
+@import "header";
+@import "nav";
+@import "main-body";
+@import "footer";
+
+.test-container{
     display: flex;
-    width: 80%;
+    width: 90%;
     margin: 20px auto;
-    color: white;
-    box-shadow: 0 4px 8px 0 lightgray, 0 6px 20px lightgray;
     @media (max-width: 500px){
         flex-direction: column-reverse;
     }
-    .text-block {
-        background: @mainblue;
-        background: radial-gradient(circle, rgba(168,233,240,1) 0%, rgba(37,200,218,1) 100%);
-        padding: 20px;
+    .text-block{
+        padding: 15px;
         h3 {
             font-size: 2rem;
-            margin: 10px 0;
+            margin: 10px 0 20px 0;
         }
-    }
-    .test-img img{
-        width: 100%;
-        height: 100%;
-    }
-}
-.mid-content{
+    } // closes .text-block
+} // closes .test-container
+
+.screenshot-container{
     display: flex;
+    justify-content: space-between;
+    width: 90%;
     margin: 20px auto;
-    width: 80%;
-    .photo{
-        background-color: gray;
-        height: 200px;
-        width: 600px;
+    @media (max-width: 500px){
+        flex-direction: column;
     }
-    .mid-content-text  {
-        padding: 20px;
-        h3 {
-            font-size: 2rem;
-            margin-bottom: 20px;
+    .screenshot1{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        background: rgb(168,233,240);
+        background: linear-gradient(180deg, rgba(168,233,240,1) 0%, @mainblue 100%);
+        @media (max-width: 500px){
+            width: 90%;
+            margin-bottom: 10px; 
         }
-    }
-}
+        h2 {
+            padding: 20px;
+            color: white;
+        } // closes h2
+        img {
+            margin: auto;
+        }
+    } // closes .screenshot1
+    .screenshot2{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        background: rgb(201,206,207);
+        background: linear-gradient(180deg, rgba(201,206,207,1) 0%, rgba(121,133,134,1) 100%);
+        @media (max-width: 500px){
+            width: 90%;
+            margin-bottom: 10px; 
+        }
+        h2 {
+            padding: 20px;
+            color: white;
+        }//closes h2
+        img {
+            margin: auto;
+        }
+    } // closes .screenshot2
+    .screenshot3{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        background: rgb(247,181,187);
+        background: linear-gradient(180deg, rgba(247,181,187,1) 0%, rgba(232,43,60,1) 100%);
+        @media (max-width: 500px){
+            width: 90%;
+            margin-bottom: 10px; 
+        }
+        h2 {
+            padding: 20px;
+            color: white;
+        }// closes h2
+        img {
+            margin: auto;
+        }
+    }//closes .screenshot3
+}// closes .screenshot-container
+
+
+
