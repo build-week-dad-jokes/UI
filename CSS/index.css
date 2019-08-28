@@ -143,48 +143,6 @@ h4,
 h5 {
   font-family: "Roboto", sans-serif;
 }
-.test-container {
-  display: flex;
-  width: 80%;
-  margin: 20px auto;
-  color: white;
-  box-shadow: 0 4px 8px 0 lightgray, 0 6px 20px lightgray;
-}
-@media (max-width: 500px) {
-  .test-container {
-    flex-direction: column-reverse;
-  }
-}
-.test-container .text-block {
-  background: #25c8da;
-  background: radial-gradient(circle, #a8e9f0 0%, #25c8da 100%);
-  padding: 20px;
-}
-.test-container .text-block h3 {
-  font-size: 2rem;
-  margin: 10px 0;
-}
-.test-container .test-img img {
-  width: 100%;
-  height: 100%;
-}
-.mid-content {
-  display: flex;
-  margin: 20px auto;
-  width: 80%;
-}
-.mid-content .photo {
-  background-color: gray;
-  height: 200px;
-  width: 600px;
-}
-.mid-content .mid-content-text {
-  padding: 20px;
-}
-.mid-content .mid-content-text h3 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
 .mainHeader h2 {
   text-align: center;
   margin: 2%;
@@ -464,6 +422,28 @@ img {
     margin: 0 auto;
   }
 }
+.btnTwo {
+  height: 6rem;
+  border: 1px solid #25c8da;
+  font-size: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  width: 100%;
+  color: white;
+  background-color: #25c8da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s black;
+}
+@media (max-width: 500px) {
+  .btn {
+    width: 50%;
+    background: #25c8da;
+    border: none;
+    margin: 0 auto;
+  }
+}
 .testimonial-section {
   display: flex;
   flex-direction: row;
@@ -475,6 +455,9 @@ img {
 .testimonial-section .testimonials img {
   border-radius: 50%;
   width: 100%;
+}
+.testimonial-section .testimonials a {
+  text-decoration: none;
 }
 @media (max-width: 500px) {
   .testimonial-section {
