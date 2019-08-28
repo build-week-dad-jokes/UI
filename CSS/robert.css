@@ -422,6 +422,11 @@ img {
     margin: 0 auto;
   }
 }
+.btn:hover {
+  border: 1px solid #25c8da;
+  background: #d3f4f8;
+  color: #25c8da;
+}
 .btnTwo {
   height: 6rem;
   border: 1px solid #25c8da;
@@ -434,15 +439,13 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 1s black;
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
-@media (max-width: 500px) {
-  .btn {
-    width: 50%;
-    background: #25c8da;
-    border: none;
-    margin: 0 auto;
-  }
+.btnTwo:hover {
+  border: 1px solid #25c8da;
+  background: #d3f4f8;
+  color: #25c8da;
 }
 .testimonial-section {
   display: flex;
@@ -700,6 +703,11 @@ img {
     border: none;
     margin: 0 auto;
   }
+}
+.mainHeader .btn:hover {
+  border: 1px solid #25c8da;
+  background: #d3f4f8;
+  color: #25c8da;
 }
 .hobbies-top {
   padding: 2%;
