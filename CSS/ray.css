@@ -501,17 +501,17 @@ img {
   box-shadow: 0 0px 3px rgba(0, 0, 0, 0.25);
   transition: box-shadow 0.25s ease-out;
 }
-@media (max-width: 500px) {
-  .item {
-    flex-direction: column;
-  }
-}
 .item:hover {
   box-shadow: 0 0 32px rgba(0, 0, 0, 0.6);
 }
 img {
   width: 100%;
   display: block;
+}
+@media (max-width: 500px) {
+  img {
+    display: flex;
+  }
 }
 .item-content {
   background-color: #25c8da;
@@ -520,18 +520,12 @@ img {
 }
 @media (max-width: 500px) {
   .item-content {
-    display: flex;
+    flex-direction: column;
   }
 }
 .card-font {
   font-size: 1.25rem;
   display: flex;
-}
-@media (max-width: 500px) {
-  .card-font {
-    justify-content: center;
-    align-items: center;
-  }
 }
 .item-content div {
   margin-top: 2rem;
@@ -559,6 +553,15 @@ img {
 }
 .subtitle {
   padding: 0;
+}
+.fa-github-square {
+  font-size: 0.5rem;
+}
+.fa-twitter-square {
+  font-size: 0.5rem;
+}
+.anchor {
+  padding: 10px;
 }
 .get-ready .get-started {
   font-size: 3rem;
