@@ -506,6 +506,11 @@ img {
   width: 90%;
   margin: 20px auto;
 }
+@media (max-width: 500px) {
+  .test-container {
+    flex-direction: column-reverse;
+  }
+}
 .test-container .text-block {
   padding: 15px;
 }
@@ -519,12 +524,23 @@ img {
   width: 90%;
   margin: 20px auto;
 }
+@media (max-width: 500px) {
+  .screenshot-container {
+    flex-direction: column;
+  }
+}
 .screenshot-container .screenshot1 {
   display: flex;
   flex-direction: column;
   width: 30%;
   background: #a8e9f0;
   background: linear-gradient(180deg, #a8e9f0 0%, #25c8da 100%);
+}
+@media (max-width: 500px) {
+  .screenshot-container .screenshot1 {
+    width: 90%;
+    margin-bottom: 10px;
+  }
 }
 .screenshot-container .screenshot1 h2 {
   padding: 20px;
@@ -540,6 +556,12 @@ img {
   background: #c9cecf;
   background: linear-gradient(180deg, #c9cecf 0%, #798586 100%);
 }
+@media (max-width: 500px) {
+  .screenshot-container .screenshot2 {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+}
 .screenshot-container .screenshot2 h2 {
   padding: 20px;
   color: white;
@@ -553,6 +575,12 @@ img {
   width: 30%;
   background: #f7b5bb;
   background: linear-gradient(180deg, #f7b5bb 0%, #e82b3c 100%);
+}
+@media (max-width: 500px) {
+  .screenshot-container .screenshot3 {
+    width: 90%;
+    margin-bottom: 10px;
+  }
 }
 .screenshot-container .screenshot3 h2 {
   padding: 20px;
