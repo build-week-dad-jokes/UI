@@ -518,6 +518,12 @@ img {
   font-size: 2rem;
   margin: 10px 0 20px 0;
 }
+.test-container .text-block h4 {
+  font-size: 1.8rem;
+}
+.test-container .text-block .checked {
+  color: orange;
+}
 .screenshot-container {
   display: flex;
   justify-content: space-between;
