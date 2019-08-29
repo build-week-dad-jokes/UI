@@ -3,7 +3,7 @@
 Your one stop shop for all of the Dad Jokes you've been dreaming about. Get connected with other Dad Jokes users, vote on the jokes that really tickle your gut, and input your favorite Dad Jokes (you might just get Dad Jokes' famous). 
 (https://dad-jokes-bw.netlify.com/)
 
-======
+========================================================================================================================================
 
 ## Create Jokes !
 
@@ -17,7 +17,7 @@ Dusted off that private joke and ready to let it free in the wild? You can do th
 
 Any joke that has been published to the public can be voted upon and shared!
 
-======
+========================================================================================================================================
 
 # Contributing
 Thank you, to everyone who contributed to this project for ;
