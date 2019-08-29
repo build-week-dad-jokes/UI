@@ -554,14 +554,9 @@ img {
 .subtitle {
   padding: 0;
 }
-.fa-github-square {
-  font-size: 0.5rem;
-}
-.fa-twitter-square {
-  font-size: 0.5rem;
-}
 .anchor {
   padding: 10px;
+  color: #053b41;
 }
 .get-ready .get-started {
   font-size: 3rem;
