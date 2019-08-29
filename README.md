@@ -3,19 +3,19 @@
 Your one stop shop for all of the Dad Jokes you've been dreaming about. Get connected with other Dad Jokes users, vote on the jokes that really tickle your gut, and input your favorite Dad Jokes (you might just get Dad Jokes' famous). 
 (https://dad-jokes-bw.netlify.com/)
 
-# Create Jokes !
+## Create Jokes !
 
 Have that Dad Joke that really shines? This app allows you to create your perfect joke collection, for private and public view!
 
-# Share Jokes !
+## Share Jokes !
 
 Dusted off that private joke and ready to let it free in the wild? You can do that with Dad Jokes! Or do you have a joke that is too good to be private and want to publish it for others enjoyment immediately? Dad Jokes lets you do that!
 
-# See Jokes Others Post !
+## See Jokes Others Post !
 
 Any joke that has been published to the public can be voted upon and shared!
 
-# Contributing
+### Contributing
 Thank you, to everyone who contributed to this project for ;
 ``` WEB Unit 1 Build Kickoff: Delivering a Multi-Page Marketing Website ```
 
