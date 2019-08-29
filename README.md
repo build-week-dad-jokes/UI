@@ -1,6 +1,6 @@
 # Dad Jokes
 
-Your one stop shop for all of the Dad Jokes you've been dreaming about. Get connected with other Dad Jokes users, vote on the jokes that really tickle your gut, and input your favorite Dad Jokes (you might just get Dad Jokes' famous). 
+Your one stop shop for all of the Dad Jokes you've been dreaming about. Get connected with other Dad Jokes users, vote on the jokes that really tickle your gut, and input your favorite Dad Jokes (you might just get Dad Jokes' famous).
 (https://dad-jokes-bw.netlify.com/)
 
 ===============================================================================
@@ -20,8 +20,9 @@ Any joke that has been published to the public can be voted upon and shared!
 ===============================================================================
 
 # Contributing
+
 Thank you, to everyone who contributed to this project for ;
-``` WEB Unit 1 Build Kickoff: Delivering a Multi-Page Marketing Website ```
+`WEB Unit 1 Build Kickoff: Delivering a Multi-Page Marketing Website`
 
 - Tyler Nishida [UX] - Everything design-wise came from his amazing templates and mocks! He's very talented with his designs and we thank him for his hard work and many hours!
 
@@ -32,5 +33,7 @@ Thank you, to everyone who contributed to this project for ;
 - Jonathan Mendoza [UI] - The guy behind "Ray"'s testimonial page ! Super talented guy who knows how to make things look amazing ! Thanks for how much you put yourself into this project!
 
 - Brandy Becker [UI] - The girl behind the "Contact" page! Also some cool little tweaks with CSS animations.
+
+---
 
 Thank you to everyone who was a part of this project, and made this project what it is. It was a very amazing Build Week for Unit 1, and I'm excited for Unit 2 ! Let's get this bread !
